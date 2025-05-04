@@ -1,4 +1,4 @@
-from PySide2.QtWebEngineCore import (
+from PySide6.QtWebEngineCore import (
     QWebEngineUrlScheme,
 )
 

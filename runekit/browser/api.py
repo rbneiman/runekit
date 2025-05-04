@@ -5,7 +5,7 @@ import secrets
 from typing import TYPE_CHECKING, Dict, Callable, List, NamedTuple
 from urllib.parse import urljoin
 
-from PySide2.QtCore import (
+from PySide6.QtCore import (
     QObject,
     Slot,
     QBuffer,
@@ -18,9 +18,9 @@ from PySide2.QtCore import (
     QRunnable,
     QJsonValue,
 )
-from PySide2.QtGui import QGuiApplication, QCursor, QScreen
-from PySide2.QtWebChannel import QWebChannel
-from PySide2.QtWebEngineCore import QWebEngineUrlSchemeHandler, QWebEngineUrlRequestJob
+from PySide6.QtGui import QGuiApplication, QCursor, QScreen
+from PySide6.QtWebChannel import QWebChannel
+from PySide6.QtWebEngineCore import QWebEngineUrlSchemeHandler, QWebEngineUrlRequestJob
 
 from runekit.browser.overlay import OverlayApi
 from runekit.browser.utils import (

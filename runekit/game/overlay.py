@@ -2,9 +2,9 @@ import logging
 from typing import TYPE_CHECKING, Callable, Tuple, Dict
 
 import numpy as np
-from PySide2.QtCore import Qt, QRect, QTimer
-from PySide2.QtGui import QGuiApplication, QPen
-from PySide2.QtWidgets import (
+from PySide6.QtCore import Qt, QRect, QTimer
+from PySide6.QtGui import QGuiApplication, QPen
+from PySide6.QtWidgets import (
     QMainWindow,
     QGraphicsView,
     QGraphicsScene,
